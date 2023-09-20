@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="miniproject.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniProject BorntoDev</title>
+</head>
+<body>
+        <img src="./img/health.jpg" alt="">
+        <div class="bg">
+                        <div class="headname">
+                                <h2>&nbsp&nbspโปรแกรมคำนวณหาค่าดัชนีมวลกาย</h2>
+                        </div>
+                        <div class="weight">
+                                น้ำหนัก<br>
+                                <input type="text" id="weight">(Kg)
+                        </div>
+                        <div class="height">
+                                ส่วนสูง<br>
+                                <input type="text" id="height">(Cm)
+                        </div>
+                        <div class="bmi">
+                
+                                <h2 id='message'>คำตอบ</h2>
+                        </div>
+                        <button onclick="calbmi()">คำนวณ</button>
+                        <script src="miniproject.js"></script>
+                        <div class="status">
+                                <h4>    
+                                        &nbsp0 - 18.99	     &nbsp&nbsp&nbsp&nbsp   น้ำหนักน้อย       &nbsp&nbsp&nbsp         ผอมมากกว่าคนปกติ<br><br>
+                                        &nbsp19 - 22.00 &nbsp&nbsp&nbsp&nbsp&nbsp&nbspปกติ&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspเท่าคนปกติ<br><br>
+                                        &nbsp23 - 24.00 &nbsp&nbsp&nbsp&nbsp&nbsp&nbspท้วม           &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspอันตรายระดับ 1 <br><br>
+                                        &nbsp25 - 29.00 &nbsp&nbsp&nbsp&nbsp&nbsp&nbspอ้วน           &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspอันตรายระดับ 2 <br><br>
+                                        &nbsp30 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp	อ้วนมาก  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspอันตรายระดับ 3 <br>
+                        </h4>
+                        </div>
+        </div>
+</body>
+</html>
